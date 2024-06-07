@@ -1,0 +1,97 @@
+.header {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 14px rgb(69, 184, 247);
+    color: black;
+}
+.logo {
+    height: 80%;
+    margin-right: 2px;
+}
+.logoImg {
+    height: 100%;
+}
+.menu {
+    height: 80%;
+    margin-left: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.eachItemMenu {
+    margin: 5px;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+    height: 100%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.eachItemMenu:hover {
+    color: rgb(88, 88, 88);
+    background-color: rgb(244, 244, 244);
+}
+.subHeader {
+    width: 100vw;
+    height: 35px;
+    background-color: rgb(17, 163, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 14px rgb(17, 163, 243);
+}
+.subHeader div {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subHeader div:hover {
+    color: aquamarine;
+}
+
+.menuResp {
+    height: 40%;
+    width: 40px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.menuResp div {
+    height: 5px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.subMenu {
+    background: linear-gradient(rgb(69, 184, 247), white );
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    .menu {
+        display: none;
+    }
+    .menuResp {
+        display: flex;
+    }
+}

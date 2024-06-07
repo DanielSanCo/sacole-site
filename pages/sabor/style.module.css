@@ -1,0 +1,12 @@
+.flavorTitle {
+    background-color: white;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+.flavor {
+    margin-left: 5px;
+    font-weight: bold;
+}

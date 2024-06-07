@@ -1,0 +1,50 @@
+
+.item {
+    width: 180px;
+    height: 300px;
+    background-color: whitesmoke;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgb(160, 160, 160);
+    color: black;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+.item:hover {
+    scale: 1.04;
+}
+.prodImg {
+    width: 100%;
+}
+.prodName {
+    font-size: 15px;
+}
+.desc {
+    font-size: 9px;
+}
+.prodPrice {
+    font-size: 20px;
+}
+.button {
+    background-color: rgb(8, 233, 8);
+    width: 80%;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px black;
+    margin-bottom: 4px;
+    cursor: pointer;
+    transition: all ease-in-out .1s;
+}
+.button:hover {
+    background-color: rgb(11, 196, 11);
+}
